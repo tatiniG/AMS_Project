@@ -20,6 +20,6 @@ async function fetchData() {
       ${data.map(row => `<tr>${headers.map(h => `<td>${row[h]}</td>`).join('')}</tr>`).join('')}
     `;
   }
-  
+  #fetch
   fetchData();
   
